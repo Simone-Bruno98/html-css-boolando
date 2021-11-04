@@ -20,9 +20,16 @@ body{
 .card4,.card5,.card6{
     margin-top: 3%;
 }
-img{
+.firstimage,.secondimage{
     max-width: 100%;
     max-height: 100%;
+    display: block;
+}
+.imgnascosta{
+    display: none;
+}
+.firstimage:hover .imgnascosta{
+    display: block;
 }
 .marca{
     font-size: 8px;
@@ -80,5 +87,5 @@ img{
 }
 
 img:hover{
-    
+
 }
